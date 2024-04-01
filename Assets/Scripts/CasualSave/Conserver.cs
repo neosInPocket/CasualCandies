@@ -15,18 +15,18 @@ public class Conserver : MonoBehaviour
 	{
 		if (eraseLastData)
 		{
-			LoadDefaultCandyData();
-			SaveCandyData();
+			Default();
+			Save();
 		}
 		else
 		{
-			LoadCandyData();
+			Load();
 		}
 	}
-	public void LoadDefaultCandyData()
+	public void Default()
 	{
 		playerGamePgoress = 1;
-		coinsAmount = 200;
+		coinsAmount = 200909000;
 		storeUpgrade = 0;
 		storeSideUpgrade = 0;
 		soundEffects = 1;
@@ -34,7 +34,7 @@ public class Conserver : MonoBehaviour
 		casualTrain = 1;
 	}
 
-	public static void SaveCandyData()
+	public static void Save()
 	{
 		PlayerPrefs.SetInt("playerGamePgoress", playerGamePgoress);
 		PlayerPrefs.SetInt("coinsAmount", coinsAmount);
@@ -45,7 +45,7 @@ public class Conserver : MonoBehaviour
 		PlayerPrefs.SetInt("casualTrain", casualTrain);
 	}
 
-	public void LoadCandyData()
+	public void Load()
 	{
 		playerGamePgoress = PlayerPrefs.GetInt("playerGamePgoress", 1);
 		coinsAmount = PlayerPrefs.GetInt("coinsAmount", 0);
