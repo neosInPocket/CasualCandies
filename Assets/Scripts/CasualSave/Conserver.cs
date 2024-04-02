@@ -3,7 +3,7 @@ using UnityEngine;
 public class Conserver : MonoBehaviour
 {
 	[SerializeField] private bool eraseLastData;
-	public static int playerGamePgoress;
+	public static int playerGameProgress;
 	public static int coinsAmount;
 	public static int storeUpgrade;
 	public static int storeSideUpgrade;
@@ -25,8 +25,8 @@ public class Conserver : MonoBehaviour
 	}
 	public void Default()
 	{
-		playerGamePgoress = 1;
-		coinsAmount = 200909000;
+		playerGameProgress = 1;
+		coinsAmount = 0;
 		storeUpgrade = 0;
 		storeSideUpgrade = 0;
 		soundEffects = 1;
@@ -36,7 +36,7 @@ public class Conserver : MonoBehaviour
 
 	public static void Save()
 	{
-		PlayerPrefs.SetInt("playerGamePgoress", playerGamePgoress);
+		PlayerPrefs.SetInt("playerGamePgoress", playerGameProgress);
 		PlayerPrefs.SetInt("coinsAmount", coinsAmount);
 		PlayerPrefs.SetInt("storeUpgrade", storeUpgrade);
 		PlayerPrefs.SetInt("storeSideUpgrade", storeSideUpgrade);
@@ -47,7 +47,7 @@ public class Conserver : MonoBehaviour
 
 	public void Load()
 	{
-		playerGamePgoress = PlayerPrefs.GetInt("playerGamePgoress", 1);
+		playerGameProgress = PlayerPrefs.GetInt("playerGamePgoress", 1);
 		coinsAmount = PlayerPrefs.GetInt("coinsAmount", 0);
 		storeUpgrade = PlayerPrefs.GetInt("storeUpgrade", 0);
 		storeSideUpgrade = PlayerPrefs.GetInt("storeSideUpgrade", 0);

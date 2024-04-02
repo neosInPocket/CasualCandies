@@ -815,7 +815,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 49.55
+  m_fontSize: 44.75
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2041,7 +2041,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 99.05
+  m_fontSize: 81.35
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2705,7 +2705,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 68.5
+  m_fontSize: 56.25
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3185,7 +3185,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 98.55
+  m_fontSize: 80.95
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3741,7 +3741,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -3993,7 +3993,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 454e567660876814298f47a18b708df8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eraseLastData: 1
+  eraseLastData: 0
 --- !u!4 &1324079496
 Transform:
   m_ObjectHideFlags: 0
@@ -4093,7 +4093,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 94
+  m_fontSize: 77.2
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5387,7 +5387,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 65.95
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5948,14 +5948,14 @@ MonoBehaviour:
   coinTrack1: {fileID: 845998044}
   coinTrack2: {fileID: 1442470659}
   storeUpgradeInfo1:
-    describer: lalala 1
-    upgradeName: first
-    coinsAmount: 111
+    describer: increases your candy's turning speed
+    upgradeName: SWIFT UPGRADE
+    coinsAmount: 20
     upgradeImage: {fileID: 21300000, guid: e952c3c4b0f44914d895596c7a218c63, type: 3}
   storeUpgradeInfo2:
-    describer: lalala 2
-    upgradeName: second
-    coinsAmount: 222
+    describer: increases the mass of your candy
+    upgradeName: WEIGHT UPGRADE
+    coinsAmount: 30
     upgradeImage: {fileID: 21300000, guid: 753f6e90519ed984cb12b0366b617a30, type: 3}
 --- !u!1 &1993472836
 GameObject:
