@@ -74,6 +74,11 @@ public class CandyRotator : MonoBehaviour
 		currentRotation.z += rotation * Time.deltaTime;
 		transform.eulerAngles = currentRotation;
 
+		if (rigid.velocity.magnitude < 1E-5)
+		{
+			rigid.velocity = Vector2.zero;
+		}
+
 		if (rigid.velocity.magnitude > 0)
 		{
 			rigid.velocity -= rigid.velocity.normalized * breakSpeed * Time.deltaTime;
