@@ -14,7 +14,7 @@ public class GeneralStudy : MonoBehaviour
 	{
 		gameObject.SetActive(true);
 		Touch.onFingerDown += YourCandy;
-		study.text = "welcome to casual candies! i'll be your guide for now";
+		study.text = "welcome to Sweet Candies Rainbow! i'll be your guide for now";
 	}
 
 	private void YourCandy(Finger finger)

@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Linq;
 using UnityEngine;
 
 public class EnemyCandyRotator : MonoBehaviour
@@ -88,8 +89,10 @@ public class EnemyCandyRotator : MonoBehaviour
 
 		if (!breaking)
 		{
-			var playerRaycast = Physics2D.Raycast(transform.position + transform.up * collider.radius, transform.up);
-			if (playerRaycast.collider && playerRaycast.collider.name == "CandyRotator")
+			var playerRaycast = Physics2D.RaycastAll(transform.position + transform.up * collider.radius, transform.up);
+			var playerCollider = playerRaycast.FirstOrDefault(x => x.collider && x.collider.name == "CandyRotator");
+
+			if (playerCollider)
 			{
 				rigid.velocity = transform.up * shootSpeed;
 				direction = rigid.velocity.normalized;

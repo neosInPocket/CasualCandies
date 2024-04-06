@@ -11,5 +11,53 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CasualGame.unity
     guid: 703e39ad5d175164590c01c834c38b09
+  - enabled: 1
+    path: Assets/Scenes/CasualRainbowScene.unity
+    guid: a8081c9cac2add5489dabea7fd8e8c12
+  - enabled: 1
+    path: Assets/Scenes/CasualRainbowScene 1.unity
+    guid: 019843c08a157fb4c97aca125ccdf86b
+  - enabled: 1
+    path: Assets/Scenes/CasualRainbowScene 2.unity
+    guid: 694661c0007ff3e4d90c9bae5d52f781
+  - enabled: 1
+    path: Assets/Scenes/CasualRainbowScene 3.unity
+    guid: cf677fb6477f29146b2ef4a6020c6fd3
+  - enabled: 1
+    path: Assets/Scenes/CasualRainbowScene 4.unity
+    guid: edf5247b5073e344a93dfb757bf03873
+  - enabled: 1
+    path: Assets/Scenes/CasualRainbowScene 5.unity
+    guid: 3edaeacc8d2e8fd488b1a66de54dad0e
+  - enabled: 1
+    path: Assets/Scenes/CasualRainbowScene 6.unity
+    guid: 99c07bb9060a58d4983459404f9bc04f
+  - enabled: 1
+    path: Assets/Scenes/CasualRainbowScene 7.unity
+    guid: 73a8c1e6d4a9e1f40910fafb715a7736
+  - enabled: 1
+    path: Assets/Scenes/CasualRainbowScene 8.unity
+    guid: 4ab1a647c3112fd4f93ce60e78150273
+  - enabled: 1
+    path: Assets/Scenes/CasualRainbowScene 9.unity
+    guid: 3256a1e2ec5f2574e8be085fc96ff787
+  - enabled: 1
+    path: Assets/Scenes/CasualRainbowScene 10.unity
+    guid: 7baf17329ee6ea24d95b48bddb6ee4ee
+  - enabled: 1
+    path: Assets/Scenes/CasualRainbowScene 11.unity
+    guid: 82acca2185da0c74da1d874df5aea302
+  - enabled: 1
+    path: Assets/Scenes/CasualRainbowScene 12.unity
+    guid: ad63a9715903a814abb463e6f4892d1e
+  - enabled: 1
+    path: Assets/Scenes/CasualRainbowScene 13.unity
+    guid: bd83483ab88cca44290a63d5e7dfc87b
+  - enabled: 1
+    path: Assets/Scenes/CasualRainbowScene 14.unity
+    guid: 8a2d76e9af940d749a0df69184bc0140
+  - enabled: 1
+    path: Assets/Scenes/CasualRainbowScene 15.unity
+    guid: 7518ae81baf7836478ca093af7b40da3
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: fe56e5a69a51248479b5159574f78f20, type: 2}
